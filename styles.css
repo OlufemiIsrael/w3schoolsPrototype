@@ -15,20 +15,32 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2vh 3vw;
-  width:100%;
-  overflow:hidden;
+  width: 100%;
+  overflow: hidden;
   white-space: nowrap;
   height: 44px;
 }
-nav a{
+nav a {
   margin-right: 25px;
-}
-a {
   color: white;
 }
-a:hover{
-    background-color: black;
-    padding: 2vh 1vw;
+a:hover {
+  background-color: black;
+  padding: 2vh 1vw;
+}
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vh 8vw 5vh 1vw;
+}
+.topHeader a{
+  color: rgb(97, 97, 97);
+}
+.topHeader a:hover{
+  color: green;
+  background-color: white;
+  padding: 0;
 }
 .sidenav {
   height: 100%;
@@ -38,9 +50,12 @@ a:hover{
   line-height: 32px;
   white-space: nowrap;
   z-index: 1;
-  top: 44.2px;
+  top: 120.1px;
   left: 0;
   background-color: rgb(240, 239, 239);
   overflow-x: hidden;
   transition: 0.5s;
+}
+.dotcom {
+  color: green;
 }
